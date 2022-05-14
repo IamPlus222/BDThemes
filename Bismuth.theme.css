@@ -1,0 +1,62 @@
+/**
+ * @name Bismuth
+ * @description "Bismuth is a chemical element with the symbol Bi and atomic number 83. It is a post-transition metal, radioactive, and one of the pnictogens with chemical properties resembling its lighter group 15 siblings arsenic and antimony" -Wikipedia
+ * @author Iam#8494
+ * @version 1.0.0
+ */
+
+/* To change the colors, change the variables inside the root {}, do NOT change the @import url() */
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Sans&family=Quicksand&display=swap);
+
+/* All colors are in RGB format (red, green, blue) use: https://www.google.com/search?q=colorpicker	*/
+
+:root {
+	--messagetransparency:      			0.17;						/* default: 0.5					(additional shadows behind messages, set to 0 to remove boxes)					*/
+	--guildchanneltransparency:  		0.18;						/* default: 0.15				(additional darkness for guild/channel list)									*/
+	--chatinputtransparency:   		0.18;						/* default: 0.0					(additional darkness for chat input container)									*/
+	--memberlisttransparency:   		0.18;						/* default: 0.0					(additional darkness for member list)											*/
+
+	--font:                                      						Fira Sans, Fira Sans, Fira Code, Fira Code, Quicksand;					/*	General Font				*/
+	--settingsicons: 			0;						/*	Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no			*/
+	
+	--accentcolor:              			0,102,15;				/*	Blurple				 - 	default:	88,101,242		 - 	hex:	#5865f2		*/
+	--accentcolor2:              			0,12,184;				/*	Boostpink			 - 	default:	255,115,250		 - 	hex:	#ff73fa		*/
+	--linkcolor:  				0,128,240;				/*	Link Color			 - 	default:	0,176,244		 - 	hex:	#00b0f4		*/
+	--mentioncolor:    			150,4,186;				/*	Highlight Color		 - 	default:	250,166,26		 - 	hex:	#faa61a		*/
+	--successcolor: 			59,165,92;				/*	Success Color		 - 	default:	59,165,92		 - 	hex:	#3ba55c		*/
+	--warningcolor: 			250,166,26;				/*	Warning Color		 - 	default:	250,166,26		 - 	hex:	#faa61a		*/
+	--dangercolor:  			237,66,69;				/*	Danger Color		 - 	default:	237,66,69		 - 	hex:	#ed4245		*/
+
+	--textshadow: 					64,68,75;				/* default: transparent			(textshadow for text ontop of accentcolor nodes, ONLY accepts a color, no px)	*/
+	
+	--textbrightest:  			219,219,219;			/*	Text Color 1		 - 	default:	255,255,255		 - 	hex:	#ffffff		*/
+	--textbrighter:   			191,191,191;			/*	Text Color 2		 - 	default:	220,221,222		 - 	hex:	#dcddde		*/
+	--textbright:    				156,156,156;			/*	Text Color 3		 - 	default:	185,187,190		 - 	hex:	#b9bbbe		*/
+	--textdark:     				117,119,120;			/*	Text Color 4		 - 	default:	142,146,151		 - 	hex:	#8e9297		*/
+	--textdarker:     				87,88,89;			/*	Text Color 5		 - 	default:	114,118,125		 - 	hex:	#72767d		*/
+	--textdarkest:     			51,53,54;				/*	Text Color 6		 - 	default:	79,84,92		 - 	hex:	#4f545c		*/
+	
+	--backgroundaccent:   		48,1,94;				/*	Background Accent	 - 	default:	64,68,75		 - 	hex:	#40444b		*/
+	--backgroundprimary:   		0,30,89;				/*	Background 1		 - 	default:	54,57,63		 - 	hex:	#36393f		*/
+	--backgroundsecondary:   	0,59,36;				/*	Background 2		 - 	default:	47,49,54		 - 	hex:	#2f3136		*/
+	--backgroundsecondaryalt:   	22,66,0;				/*	Background 3		 - 	default:	41,43,47		 - 	hex:	#292b2f		*/
+	--backgroundtertiary:   		59,0,48;				/*	Background 4		 - 	default:	32,34,37		 - 	hex:	#202225		*/
+	--backgroundfloating:   		3,0,41;				/*	Background Elevated	 - 	default:	24,25,28		 - 	hex:	#18191c		*/
+	
+	--transparencycolor:      			0,0,25;						/* default:	0,0,0																								*/
+	--transparencyalpha:         			0.68;	
+	--background:  					url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREzkLkxbEseVRAIH3HruUbtAvAv5H5Oh49U5LVGwwjqoJOWiNknXqDHLqb1AggQDJMtwU&usqp=CAU');	/* general background image				*/
+	--backgroundposition:			center;						/* default: center				(position of background - values: [center/top/right/bottom/left])				*/
+	--backgroundsize: 				contain;						/* default: cover				(sizefit of background - values: [cover/contain/auto])							*/
+	--backgroundblur:      				6px;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
+
+	--popout:						var(--background);			/* default: var(--background)	(change to use another background/color for modals/popouts)						*/
+	--popoutposition:				var(--backgroundposition);	/* default: center				(position of popout - values: [center/top/right/bottom/left])					*/
+	--popoutsize: 					cover;		/* default: cover				(sizefit of popout - values: [cover/contain/auto])								*/
+	--popoutblur: 					4;		/* default: unset				(blur in px, only works when --popout is set to an image)						*/
+
+	--version1_0_5:					none;						/* DO NOT CHANGE THIS VARIABLE , USED TO HIDE UPDATE NOTICE														*/
+}

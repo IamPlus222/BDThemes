@@ -1,0 +1,14 @@
+/**
+ * @name FiraFont
+ * @description Changes all the fonts to Fira
+ * @author Iam#8494
+ * @version 1.0.0
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Sans&display=swap');
+
+::placeholder, body, button, input, select, textarea {
+font-size: 65%;
+font-family: 'Fira Sans', 'Fira Code' ;
+line-height: 1.25;
+}
